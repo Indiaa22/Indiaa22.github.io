@@ -6,3 +6,128 @@
 
     Good luck, and have fun!
 */
+.tetris-block {
+    padding: 25px;
+    border-width: 5px;
+    border-style: outset;
+    display: inline-block;
+}
+
+.lav {
+    background-color: lavenderblush;
+    border-color: lavenderblush;
+}
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+.coral {
+    background-color: coral;
+    border-color: coral;
+}
+.teal {
+    background-color: teal;
+    border-color: teal;
+}
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
+.lav {
+    background-color: lavenderblush;
+    border-color: lavenderblush;
+}
+.coral {
+    background-color: coral;
+    border-color: coral;
+}
+
+
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
+.teal {
+    background-color: teal;
+    border-color: teal;
+}
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+.lav {
+    background-color: lavenderblush;
+    border-color: lavenderblush;
+}
+.coral {
+    background-color: coral;
+    border-color: coral;
+}
+.teal {
+    background-color: teal;
+    border-color: teal;
+}
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+
+
+.lav {
+    background-color: lavenderblush;
+    border-color: lavenderblush;
+}
+.coral {
+    background-color: coral;
+    border-color: coral;
+}
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
+.teal {
+    background-color: teal;
+    border-color: teal;
+}
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+.lav {
+    background-color: lavenderblush;
+    border-color: lavenderblush;
+}
+.coral {
+    background-color: coral;
+    border-color: coral;
+}
+
+
+.teal {
+    background-color: teal;
+    border-color: teal;
+}
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+.lav {
+    background-color: lavenderblush;
+    border-color: lavenderblush;
+}
+.coral {
+    background-color: coral;
+    border-color: coral;
+}
+.teal {
+    background-color: teal;
+    border-color: teal;
+}
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
