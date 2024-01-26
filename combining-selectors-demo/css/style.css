@@ -1,0 +1,41 @@
+#navbar {
+    text-align: center;
+    background-color: blue;
+    padding: 24px;
+}
+
+#navbar a {
+    color: white;
+}
+
+p a {
+    color: teal;
+}
+
+p.warning {
+    color: red;
+}
+p.warning a {
+    color: plum;
+}
+
+/* 
+    with p. you target that paragraph *warning*
+    with just ( a ) you target the a's from the html
+*/
+
+ul a {
+    color: green;
+}
+
+ul a {
+    color: lime;
+}
+
+ul p a {
+    color: purple;
+}
+
+ul div a {
+    color: lightblue;
+}
