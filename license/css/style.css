@@ -13,30 +13,44 @@
     height: 500px;
     padding: 20px;
 }
-#personal-info {
-    display: inline-block;
+
+h1 {
+    border: 2px solid red;
 }
+
+#content {
+    border: 2px solid blue;
+}
+
 #small-pic {
-    display: inline-block;
-    padding-top: 30px;
+    border: 2px solid purple;
 }
-#data-fields {
+
+#small-pic img {
+    width: 90px;
+    text-align: left;
+}
+
+#left-side {
+    border: 2px solid red;
+    text-align: left;
+    display: inline-block;
+    width: 300px;
+}
+
+#right-side {
+    border: 2px solid green;
+    text-align: right;
     display: inline-block;
 }
 
 #data-left,
 #data-right {
     display: inline-block;
-}
-#signature {
-    text-align: center;
 
 }
-#id-and-expiration div {
+
+#personal-info {
     display: inline-block;
-}
-
-#right-side {
-    padding-left: 520px;
-
+    text-align: right;
 }
