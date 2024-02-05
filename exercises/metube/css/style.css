@@ -24,7 +24,7 @@ body {
     text-decoration: none;
 }
 
-#header #me {
+#header #creative {
     color: #111;
 }
 
@@ -66,65 +66,69 @@ body {
     flex-wrap: wrap;
 }
 
-.metube-item {
+.ctube-item {
     flex: 250px;
     margin-right: 12px;
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail {
+.ctube-item .thumbnail {
     border-radius: 8px;
     aspect-ratio: 16 / 9;
 }
 
-#m1 .thumbnail {
+#c1 .thumbnail {
     background-image: url(../images/website.png);
     background-size: cover;
 }
 
-#m2 .thumbnail {
+#c2 .thumbnail {
     background-image: url(../images/painting\ .png);
     background-size: cover;
 }
 
-#m3 .thumbnail {
+#c3 .thumbnail {
     background-image: url(../images/UX:UI.png);
     background-size: cover;
 }
 
-#m4 .thumbnail {
+#c4 .thumbnail {
     background-image: url(../images/Illustration.png);
     background-size: cover;
 }
 
-#m5 .thumbnail {
+#c5 .thumbnail {
     background-image: url(../images/graphic\ design.png);
     background-size: cover;
 }
 
-#m6 .thumbnail {
+#c6 .thumbnail {
     background-image: url(../images/artist.png);
     background-size: cover;
 }
-.metube-item h4 {
+.ctube-item h4 {
     margin: 8px;
 }
 
-.metube-item h4 a {
+.ctube-item h4 a {
     text-decoration: none;
     color: #111;
     display: block;
 }
 
-.metube-item h4 a:hover {
+.ctube-item h4 a:hover {
     text-decoration: underline;
 }
 
-.metube-item .video-details {
+.ctube-item .video-details {
     margin: 8px;
     font-size: 14px;
 }
 
-.metube-item .channel {
+.ctube-item .channel {
     margin-bottom: 4px;
+}
+
+.ctube-item {
+    max-width: 200px;
 }
