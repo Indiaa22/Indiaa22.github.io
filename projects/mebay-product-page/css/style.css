@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+ 
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+
+
+#header a {
+    text-decoration: none;
+
+}
+
+#m {
+    color: red;
+}
+
+#e {
+    color: coral;
+}
+
+#b {
+    color: purple;
+}
+
+#a {
+    color: teal;
+}
+
+#y {
+    color: gold;
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 600px 700px 300px 1fr;
+    grid-template-areas: ". column-area-1 column-area-2 column-area-3 .";
+}
+    
+#column-1 {
+    background-color: white;
+    padding: 0px 20px;
+    grid-area: column-area-1;
+}
+    
+#column-2 {
+    background-color: white;
+    padding: 0px 20px;
+    grid-area: column-area-2;
+}
+    
+#column-3 {
+    background-color: white;
+    padding: 0px 20px;
+    grid-area: column-area-3;
+}
+
+#column-3 ul{
+    list-style-type: none;
+}
+
+#column-3 li {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+#three-columns img {
+    margin-top: 24px;
+    width: 100%;
+}
+    
+    
+#three-columns p {
+    margin-top: 12px;
+}
+
+#column-2 h3 {
+    border-bottom: 1px solid #e2e1e1;
+    padding-bottom: 8px;
+}  
+
+#column-2 #quantity {
+    border-bottom: 1px solid #e2e1e1;
+    padding-bottom: 20px;
+}
+
+#column-2 ul {
+    list-style-type: none;
+    padding: 12px 0px;
+    margin: 0px;
+}
+
+#bulk-price li {
+    border: 1px solid black;
+    padding: 30px 20px;
+    margin: 10px;
+
+}
+
+#bulk-price {
+    display: flex;
+}
+
+#bulk-price li:hover {
+    background-color: whitesmoke;
+    color: rgb(62, 61, 61);
+    border: 1px solid black;
+}
+
+#buynow li:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+#buynow {
+    display: flex;
+    border-bottom: 1px solid #e2e1e1;
+    padding-bottom: 8px;
+}
+
+#buy {
+    background-color: rgb(52, 52, 153);
+    color: white;
+    padding: 20px 60px;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+#add {
+    background-color: rgb(56, 151, 210);
+    color: white;
+    padding: 20px 55px;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+#watch {
+    color: rgb(36, 97, 184);
+    border: 1px solid rgb(36, 97, 210);
+    padding: 20px 35px;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
