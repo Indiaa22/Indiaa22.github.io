@@ -28,10 +28,14 @@ body {
 
 #sidebar-content ul {
     background-color: white;
-
     margin: 0px 0px 36px;
     list-style-type: none;
     padding: 0px 12px;
+}
+
+#sidebar-content li a {
+    color: black;
+    background-color: white;
 }
 #sidebar-content a {
     background-color: azure;
