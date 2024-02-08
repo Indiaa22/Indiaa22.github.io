@@ -8,20 +8,15 @@ body {
 }
 
 .single-column {
-    width: 50%;
     min-width: 500px;
     max-width: 800px;
     margin: 0px auto;
-}
-
-
-.light-container {
-    padding: 50px 0px;
-
+    background-color: black;
 }
 
 .light-container img {
-    width: 700px;
+    width: 800px;
+    background-color: black;
 }
 
 h1, h5 {
@@ -34,14 +29,13 @@ h1{
 
 
 .dark-container {
-    padding: 100px 0px;
     background-color: black;
     color: whitesmoke;
-    font-family: sans-serif;
 }
 
 .dark-container img {
-    width: 700px;
+    max-width: 900px;
+    height: 400px;
 }
 
 .light-container a {
@@ -49,18 +43,16 @@ h1{
 }
 
 .dark-container-2 {
-    padding: 50px 0px;
+    width: 900px;
 
 }
 
 .dark-container-2 img {
-    width: 722px;
+    width: 900px;
     height: 400px;
 }
 
 .dark-container-2 {
-    padding: 100px 0px;
     background-color: black;
     color: whitesmoke;
-    font-family: sans-serif;
 }
