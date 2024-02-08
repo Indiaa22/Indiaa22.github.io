@@ -41,10 +41,19 @@ body {
     width: 100%;
     padding: 20px;
     text-align: center;
-    border: 3px solid green;
+    border: 3px solid green;  
+    transition: 
+    background-color 0.5s,
+    color 0.5s;
+}
+
+.card-style-1 a:hover {
+    background-color: transparent;
+    color: green;
 }
 
 .card-style-1 p {
     padding: 0px 25px;
     color: #4d574b;
 }
+
