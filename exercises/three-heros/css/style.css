@@ -50,7 +50,7 @@ body {
 
 #hero-1 a:hover {
     background-color: transparent;
-    color: #9cd7ff;
+    color: black;
     border: 1px solid black;
     font-weight: bold;
 }
