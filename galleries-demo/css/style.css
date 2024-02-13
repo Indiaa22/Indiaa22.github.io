@@ -51,12 +51,12 @@ body {
     object-fit: cover;
 }
 
-.vertical-mason-gallery {
+.vertical-masonry-gallery {
     columns: 3 auto;
     column-gap: 24px;
 }
 
-.vertical-mason-gallery img {
+.vertical-masonry-gallery img {
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }

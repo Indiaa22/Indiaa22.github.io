@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-main {
+    background-image: url(../images/thirteen.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-main .hero-content {
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#hero-main h2 {
+    font-size: 6vw;
+    margin: 5vh 5vh 0px;
+}
+
+#hero-main h4 {
+    font-size: 2vw;
+    margin: 5vh 5vh 0px;
+    font-weight: lighter;
+}
+
+#hero-main a {
+    font-size: 1vw;
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vh 0px;
+}
+
+#column-layout h4 {
+    text-align: center;
+}
+
+#column-layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+}
+
+.grid-gallery img {
+    width: 100%;
+}
