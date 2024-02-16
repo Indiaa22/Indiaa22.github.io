@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, lightgreen, green);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 24px;
+}
+
+#navbar h2 {
+    margin-right: auto;
+    color: whitesmoke;
+}
+
+#navbar2 {
+    background: linear-gradient(to top, tan, rgb(177, 138, 102));
+    display: flex;
+    align-items: center;
+}
+
+#navbar2 a {
+    text-decoration: none;
+    color:  whitesmoke;
+    padding: 25px;
+}
+
+#navbar2 h2 {
+    color: whitesmoke;
+    margin-right: auto;
+}
+
+#navbar2 .cta-button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: whitesmoke;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
