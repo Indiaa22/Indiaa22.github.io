@@ -34,6 +34,7 @@ body {
     text-decoration: none;
     color:  whitesmoke;
     padding: 25px;
+    margin: 5px;
 }
 
 #navbar2 h2 {
@@ -47,6 +48,67 @@ body {
     color: whitesmoke;
     border-radius: 36px;
     padding: 16px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-left: auto;
+    margin: 5px;
+}
+
+#navbar-top {
+    background-color: black;
+}
+
+#navbar-top a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    padding: 5px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, rgb(246, 183, 66), rgb(147, 100, 14));
+}
+
+#navbar-bottom .content-column2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 0px;
+    margin: auto;
+    font-size: 12px;
+}
+
+#navbar3 {
+    background: linear-gradient(to top, rgb(255, 184, 53), rgb(223, 147, 6));
+    display: flex;
+    align-items: center;
+}
+
+#navbar3 a {
+    text-decoration: none;
+    color:  whitesmoke;
+    padding: 25px;
+}
+
+#navbar3 h2 {
+    color: whitesmoke;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+#navbar3 .cta-button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: whitesmoke;
+    border-radius: 36px;
+    padding: 10px 10px;
     font-size: 15px;
     font-weight: bold;
     min-width: 150px;
