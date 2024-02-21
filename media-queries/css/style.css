@@ -215,7 +215,6 @@ a {
 @media screen and (max-width: 768px) {
     #nav {
         flex-direction: column;
-        align-items: center;
     }
 
     #hero h1 {
@@ -228,7 +227,13 @@ a {
 
     .three-cards {
         flex-direction: column;
-        align-items: center;
     }
     
+    .two-cards {
+       flex-direction: column;
+       align-items: center;
+    }
+
+    
+
 }
