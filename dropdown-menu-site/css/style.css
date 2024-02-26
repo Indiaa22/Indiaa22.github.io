@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Ruslan+Display&display=swap');
 
 * {
     box-sizing: border-box;
@@ -7,12 +7,14 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(250, 236, 230);
 }
 
 #navbar {
     background: linear-gradient(to bottom, coral, lightcoral);
     display: flex;
     align-items: center;
+    font-family: "Ruslan Display", sans-serif;
 }
 
 #navbar a {
@@ -20,6 +22,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 24px;
+    font-size: 20px;
 }
 
 #navbar a:hover {
@@ -67,13 +70,105 @@ body {
     background: lightcoral;
 }
 
-.hero-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto;
-}
 
 .hero-content img {
     padding-top: 30px;
+}
+
+#hero {
+    width: 80vw;
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#hero img {
+    height: 800px;
+}
+
+.content h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: "Ruslan Display", sans-serif;
+    color: coral;
+}
+
+.content p {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+.content a {
+    background-color: white;
+    color: coral;
+    border: 2px solid coral;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 25px;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.content a:hover {
+    border-radius: 2px solid coral;
+    color: white;
+    background-color: coral;
+}
+
+.single-column {
+    width: 2px;
+    min-width: 500px;
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.single-column h3, p {
+    text-align: center;
+}
+
+.single-column h3 {
+    font-size: 25px;
+}
+
+.single-column img {
+    height: 650px;
+}
+
+.single-column h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Ruslan Display", sans-serif;
+}
+
+.single-column a {
+    background-color: white;
+    color: coral;
+    border: 2px solid coral;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 25px;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.single-column a:hover {
+    border-radius: 2px solid coral;
+    color: white;
+    background-color: coral;
 }
