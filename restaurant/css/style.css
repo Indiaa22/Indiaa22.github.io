@@ -5,28 +5,37 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url("../images/background.png");
 }
 
 #navbar {
-    background: #cfb8a6;
+    background: #d4c3b6;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 #navbar a {
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
+}
+
+#navbar {
+    background: #d4c3b6;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
     padding: 24px;
 }
 
-#navbar h2 {
-    margin-right: auto;
-    color: whitesmoke;
-}
-
-#navbar img {
-    height: 70px;
-    margin: auto;
+#navbar a:hover {
+    background: #cba98f;
 }
 
 .dropdown-container {
@@ -43,23 +52,23 @@ body {
         z-index: 10;
 }
 
-.dropdown-container:last-child .dropdown-menu {
-    right: 0px;
-}
-
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
 }
 
 .dropdown-menu a {
-    background-color: #cfb8a6;
+    background-color: #d4c3b6;
     width: 100%;
     min-width: 200px;
 }
 
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
 #navbar .dropdown-menu a:hover {
-    background: #c6a48a;
+    background: #cba98f;
 }
 
 #hero {
@@ -86,6 +95,78 @@ body {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
 }
- #hero {
+
+#hero {
     color: white;
- }
+}
+
+#logo img {
+    width: 1000px;
+    margin-top: 0px;
+}
+    
+#navbar2 {
+    background: #d4c3b6;
+    display: flex;
+    align-items: center;
+}
+
+#navbar2 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+    
+#navbar2 a:hover {
+    background: #cba98f;
+}
+    
+#navbar2 #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+#navbar2 #logo:hover {
+    background-color: #d4c3b6;
+}
+
+#flex-side-by-side {
+    width: 80vw;
+    max-width: 800px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+    
+.image-container {
+    height: 400px;
+}
+    
+#grid-side-by-side {
+    background-color: #d4c3b6;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-auto-rows: 150px;
+    justify-content: center;
+    gap: 50px;
+}
+
+#flex-side-by-side img {
+    width: 600px;
+}
+
+.content {
+    text-align: center;
+    color: #d4c3b6;
+}
+
+#grid-side-by-side img {
+    width: 200px;
+}
