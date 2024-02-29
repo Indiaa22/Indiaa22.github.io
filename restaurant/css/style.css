@@ -15,10 +15,20 @@ body {
     padding: 20px;
 }
 
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 2px;
+}
+
 #navbar a {
     text-decoration: none;
     color: white;
+    padding: 24px;
 }
+
 
 #navbar {
     background: #d4c3b6;
@@ -93,10 +103,22 @@ body {
 
 #hero p {
     padding-bottom: 200px;
+    text-align: center;
+    font-size: 20px;
 }
 
 #hero {
     color: white;
+}
+
+#hero h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+#hero h4 {
+    font-size: 50px;
+    text-align: center;
 }
 
 #logo img {
@@ -169,6 +191,33 @@ body {
 
 #grid-side-by-side img {
     width: 200px;
+    height: 150px;
 }
+
+#footer {
+    background: #cba98f;
+    color: white;
+    padding: 12px;
+}
+    
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+    
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
 
 
