@@ -86,14 +86,13 @@ body {
     padding-top: 20vh;
 }
 
-#hero h2 {
-    font-size: 8vw;
-    margin: 0px 5vw 5vh 0px;
-}
-
 #hero h4 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
+}
+
+#hero p {
+    padding-bottom: 200px;
 }
 
 #hero {
@@ -101,8 +100,9 @@ body {
 }
 
 #logo img {
-    width: 1000px;
+    width: 1300px;
     margin-top: 0px;
+    padding-bottom: 0px
 }
     
 #navbar2 {
@@ -170,3 +170,5 @@ body {
 #grid-side-by-side img {
     width: 200px;
 }
+
+
