@@ -25,7 +25,7 @@ body {
 
 #navbar a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 24px;
 }
 
@@ -40,7 +40,7 @@ body {
 #navbar a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 24px;
 }
 
@@ -96,19 +96,21 @@ body {
     padding-top: 20vh;
 }
 
-#hero h4 {
-    font-size: 3vw;
-    margin: 0px 5vw 0px 0px;
-}
-
 #hero p {
     padding-bottom: 200px;
     text-align: center;
     font-size: 20px;
+    color: black;
+    padding-bottom: 0px;
+}
+
+#hero #p2 {
+    padding-top: 0%;
+    padding-bottom: 250px;
 }
 
 #hero {
-    color: white;
+    color: black;
 }
 
 #hero h1 {
@@ -116,15 +118,8 @@ body {
     text-align: center;
 }
 
-#hero h4 {
-    font-size: 50px;
-    text-align: center;
-}
-
-#logo img {
-    width: 1300px;
-    margin-top: 0px;
-    padding-bottom: 0px
+#hero img {
+    width: 500px;
 }
     
 #navbar2 {
@@ -136,7 +131,7 @@ body {
 #navbar2 a {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 24px;
 }
     
@@ -194,22 +189,37 @@ body {
     height: 150px;
 }
 
-#footer {
-    background: #cba98f;
-    color: white;
+#footer1 {
+    background: #d4c3b6;
+    color: black;
     padding: 12px;
 }
     
-#footer a {
+#footer1 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
     
 #footer-navbar {
     width: 800px;
+    text-align: center;
     margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
+}
+
+#footer1 {
+    position: sticky;
+    bottom: 0px;
+}
+
+#footer2 {
+    background: #c7af9d;
+    color: black;
+    padding: 12px;
+}
+    
+#footer2 a {
+    text-decoration: none;
+    color: black;
 }
     
     
